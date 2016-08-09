@@ -4,9 +4,9 @@
  * L&T quote generator
  */
 
-var fool = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var understand = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
-var Great = ["museums", "bridges", "cities"]
+var fool = ["dunce", "simpleton", "coder", "clown", "being", "mortal"];
+var understand = ["comprehend", "grasp", "fathom", "recognize", "acknowledge", "believe"]
+var Great = ["Outstanding", "Perfect", "Important"]
 var write = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
 var humans = ["sky", "atmosphere", "heavens", "ether", "wind"];
 
