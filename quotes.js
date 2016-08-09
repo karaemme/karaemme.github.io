@@ -7,11 +7,10 @@
 var fool = ["dunce", "simpleton", "coder", "clown", "being", "mortal"];
 var understand = ["comprehend", "grasp", "fathom", "recognize", "acknowledge", "believe"]
 var Great = ["Outstanding", "Perfect", "Important"]
-var write = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
-var humans = ["sky", "atmosphere", "heavens", "ether", "wind"];
+var write = ["compose", "compile", "note", "communicate", "record", "produce", "formulate"];
+var humans = ["beings", "individuals", "humanoids", "mortals", "earthlings"];
 
-var understandone = ["is", "is not", "is like", "includes", "excludes", "is beyond",
-	  "extends", "encodes", "represents", "signifies", "consists of"];
+var programmer = ["developer", "drafter", "hobbyist", "coder", "try hard engineer"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
@@ -22,22 +21,22 @@ function choose(lst){
     return lst[choosei(lst)];
 }
 
-var pick = choosei(things);
-var thing = things[pick];
-var programmer = programmers[pick];
-var castles = choose(castles);
-var exertion = choose(exertions);
-var air = choose(airs);
+var fools = choosei(fool);
+var understands = choose(understand);
+var Greats = choose(Great);
+var writes = choose(write);
+var human = choose(humans);
+var programmers = choose(programmer);
 
 var t = document.getElementById("thing").innerHTML = thing;
 var p = document.getElementById("person").innerHTML = programmer + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
-    "\"Any " + fool +
+    "\"Any " + fools +
     "can write code that a computer can " +
-    understand + "." + Great + " programmers " + write + " code that " + humans + " can " + understandone + ".\"" +
-    "\u2014" +  "Martin Fowler, " + programmer;
+    understands + "." + Greats + " programmers " + writes + " code that " + human + " can " + understands + ".\"" +
+    "\u2014" +  "Martin Fowler, " + programmers;
 
 q.innerHTML += "<br><br><br>";
 
