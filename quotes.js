@@ -5,8 +5,8 @@
  */
 
 var fool = ["dunce", "simpleton", "coder", "clown", "being", "mortal"];
-var understand = ["comprehend", "grasp", "fathom", "recognize", "acknowledge", "believe"]
-var Great = ["Outstanding", "Perfect", "Important"]
+var understand = ["comprehend", "grasp", "fathom", "recognize", "acknowledge", "believe"];
+var Great = ["Outstanding", "Perfect", "Important"];
 var write = ["compose", "compile", "note", "communicate", "record", "produce", "formulate"];
 var humans = ["beings", "individuals", "humanoids", "mortals", "earthlings"];
 
