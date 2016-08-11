@@ -12,18 +12,21 @@ var humans = ["beings", "individuals", "humanoids", "mortals", "earthlings"];
 
 var programmer = ["developer", "computer whisperer", "hobbyist", "coder", "try hard engineer"];
 
-function choosei(){
+function choosei(lst){
     var i = Math.floor(Math.random() * 4);
     return i;
 }
 
-var pick = 1;
-var fools = fool[pick];
-var understands = understand[pick];
-var Greats = Great[pick];
-var writes = write[pick];
-var human = humans[pick];
-var programmers = programmer[pick];
+function choose(lst){
+    return lst[choosei(lst)];
+}
+
+var fools = choose(fool);
+var understands = choose(understand);
+var Greats = choose(Great);
+var writes = choose(write);
+var human = choose(humans);
+var programmers = choose(programmer);
 
 var q = document.getElementById("quote");
 
