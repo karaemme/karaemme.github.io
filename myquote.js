@@ -12,31 +12,24 @@ var humans = ["beings", "individuals", "humanoids", "mortals", "earthlings"];
 
 var programmer = ["developer", "drafter", "hobbyist", "coder", "try hard engineer"];
 
-function choosei(lst){
-    var i = Math.floor(Math.random() * lst.length);
+function choosei(){
+    var i = Math.floor(Math.random() * 4);
     return i;
 }
 
-function choose(lst){
-    return lst[choosei(lst)];
-}
+var pick = 1;
+var fools = fool[pick];
+var understands = understand[pick];
+var Greats = Great[pick];
+var writes = write[pick];
+var human = humans[pick];
+var programmers = programmer[pick];
 
-var fools = choosei(fool);
-var understands = choose(understand);
-var Greats = choose(Great);
-var writes = choose(write);
-var human = choose(humans);
-var programmers = choose(programmer);
-
-var t = document.getElementById("thing").innerHTML = thing;
-var p = document.getElementById("person").innerHTML = programmer + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
     "\"Any " + fools +
     "can write code that a computer can " +
     understands + "." + Greats + " programmers " + writes + " code that " + human + " can " + understands + ".\"" +
-    "\u2014" +  "Martin Fowler, " + programmers;
+    +  "Martin Fowler, " + programmers;
 
-
-q.innerHTML += "\u2014 For Loop";
