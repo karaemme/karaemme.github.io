@@ -31,5 +31,5 @@ q.innerHTML =
     "\"Any " + fools +
     " can write code that a computer can " +
     understands + ". " + Greats + " programmers " + writes + " code that " + human + " can " + understands + ".\"" +
-      "Martin Fowler, " + programmers;
+      " Martin Fowler, " + programmers;
 
