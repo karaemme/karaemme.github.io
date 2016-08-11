@@ -10,7 +10,7 @@ var Great = ["Outstanding", "Perfect", "Important"];
 var write = ["compose", "compile", "note", "communicate", "record", "produce", "formulate"];
 var humans = ["beings", "individuals", "humanoids", "mortals", "earthlings"];
 
-var programmer = ["developer", "drafter", "hobbyist", "coder", "try hard engineer"];
+var programmer = ["developer", "computer whisperer", "hobbyist", "coder", "try hard engineer"];
 
 function choosei(){
     var i = Math.floor(Math.random() * 4);
@@ -29,7 +29,7 @@ var q = document.getElementById("quote");
 
 q.innerHTML =
     "\"Any " + fools +
-    "can write code that a computer can " +
-    understands + "." + Greats + " programmers " + writes + " code that " + human + " can " + understands + ".\"" +
-    +  "Martin Fowler, " + programmers;
+    " can write code that a computer can " +
+    understands + ". " + Greats + " programmers " + writes + " code that " + human + " can " + understands + ".\"" +
+      "Martin Fowler, " + programmers;
 
