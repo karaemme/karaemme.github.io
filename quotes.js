@@ -30,7 +30,7 @@ var programmers = choose(programmer);
 
 var t = document.getElementById("thing").innerHTML = thing;
 var p = document.getElementById("person").innerHTML = programmer + "s";
-var q = document.getElementById("quote");
+var q = document.getElementById("quotes");
 
 q.innerHTML =
     "\"Any " + fools +
@@ -38,11 +38,5 @@ q.innerHTML =
     understands + "." + Greats + " programmers " + writes + " code that " + human + " can " + understands + ".\"" +
     "\u2014" +  "Martin Fowler, " + programmers;
 
-q.innerHTML += "<br><br><br>";
-
-for (var i = 0; i < is.length; i++){
-    q.innerHTML += "Code " + is[i] + " language. <br>";
-    q.innerHTML += "Language " + is[i] + " code. <br>";
-}
 
 q.innerHTML += "\u2014 For Loop";
