@@ -30,7 +30,7 @@ var programmers = choose(programmer);
 
 var t = document.getElementById("thing").innerHTML = thing;
 var p = document.getElementById("person").innerHTML = programmer + "s";
-var q = document.getElementById("quotes");
+var q = document.getElementById("quote");
 
 q.innerHTML =
     "\"Any " + fools +
